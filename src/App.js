@@ -21,7 +21,7 @@ const NotFound = lazy(() =>
 
 export default function App() {
   return (
-    <div className="app">
+    <div className="App-header">
       <AppBar />
       <Suspense fallback={<h1>LOADING</h1>}>
         <Switch>

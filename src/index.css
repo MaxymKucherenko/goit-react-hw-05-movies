@@ -39,6 +39,46 @@ img {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(42, 165, 118);
+  width: inherit;
+  height: 80px;
+  background-color: rgb(125, 176, 228);
+  border-radius: 10px;
+
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border: 1px solid rgb(34, 21, 216);
+    border-radius: 10px;
+    background-color: rgb(85, 165, 211);
+    display: block;
+    height: 30px;
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .activ {
+    font-size: 22px;
+    font-style: oblique;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+  }
+
 /*
  * Стили компонента Searchbar
  */
