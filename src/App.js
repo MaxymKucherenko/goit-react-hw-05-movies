@@ -3,9 +3,7 @@ import { lazy, Suspense } from 'react';
 import { AppBar } from './components/AppBar';
 
 const MoviesPage = lazy(() =>
-  import(
-    './components/MoviesPage' /* webpackChunkName: "movies-page" */
-  )
+  import('./components/MoviesPage' /* webpackChunkName: "movies-page" */)
 );
 const HomePage = lazy(() =>
   import('./components/HomePage' /* webpackChunkName: "home-page" */)

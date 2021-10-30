@@ -11,9 +11,7 @@ import { getOneMovie } from '../services/Api';
 import Loader from 'react-loader-spinner';
 import { Route } from 'react-router';
 
-const Cast = lazy(() =>
-  import('./Cast' /* webpackChunkName: "cast" */)
-);
+const Cast = lazy(() => import('./Cast' /* webpackChunkName: "cast" */));
 const Reviews = lazy(() =>
   import('./Reviews' /* webpackChunkName: "reviews" */)
 );
