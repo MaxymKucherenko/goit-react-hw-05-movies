@@ -1,4 +1,4 @@
-import avatar from '../images/foto';
+import avatar from '../images/foto.jpg';
 import { getCast } from '../services/Api';
 import { useParams } from 'react-router';
 import { useEffect, useState } from 'react';
